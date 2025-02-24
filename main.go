@@ -27,7 +27,7 @@ func GenerateRandomHexString(length int) (string, error) {
 }
 
 func main() {
-	hexString, err := GenerateRandomHexString(64)
+	hexString, err := GenerateRandomHexString(32)
 	if err != nil {
 		panic(err)
 	}
