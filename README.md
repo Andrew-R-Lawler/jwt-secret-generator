@@ -1,2 +1,2 @@
 # jwt-secret-generator
-Go program that outputs a JSON web token secret string
+Go program that outputs a 32 hexidecimal digit JSON web token secret string
